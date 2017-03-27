@@ -1,0 +1,21 @@
+{
+  "config": {
+    "end": 110,
+    "prefix": "A00",
+    "significantCharacters": 5
+  },
+  "data": [
+    {
+      "start": 101,
+      "artist": "Unknown Artist",
+      "title": "Unknown Title",
+      "year": 2017
+    },
+    {
+      "start": 105,
+      "artist": "Unknown Artist",
+      "title": "Unknown Title",
+      "year": 2017
+    }
+  ]
+}
