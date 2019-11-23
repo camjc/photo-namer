@@ -81,8 +81,6 @@ _.forEach( directories, (directory) => {
     const newPath = path.join(fileDirectory, newName);
     if (oldPath === newPath) { return; }
 
-
-
     if (dryRun) {
       console.log(currentFile, 'would rename to', newName);
     }
