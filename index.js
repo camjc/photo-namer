@@ -11,7 +11,6 @@ const {data, config} = require(path.join(rootFolder, 'records.json'));
 
 const getDirectories = p => fs.readdirSync(p).filter(f => fs.statSync(p+"/"+f).isDirectory());
 
-
 const {
   end,
   prefix,
@@ -92,6 +91,6 @@ _.forEach( directories, (directory) => {
       fs.renameSync(oldPath, newPath);
     }
   });
-})
+});
 
 console.log('All done!');
