@@ -1,7 +1,8 @@
+const _ = require('lodash');
+
 // Configuration
 const recordsDirectory = _.last(process.argv);
 
-const _ = require('lodash');
 const fs = require('fs');
 
 const records = require(recordsDirectory);
